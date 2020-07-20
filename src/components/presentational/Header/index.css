@@ -1,6 +1,6 @@
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: #43e6e1;
+  color: #43e6e1 !important;
   font-size: 1.75rem !important;
 }
