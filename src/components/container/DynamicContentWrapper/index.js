@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import scenarios from "./data";
-
 class DynamicContentWrapper extends Component {
   constructor(props) {
     super(props);
