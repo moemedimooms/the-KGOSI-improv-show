@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import scenarios from "./data";
+import DefaultContent from "../../presentational/DefaultContent";
+
 class DynamicContentWrapper extends Component {
   constructor(props) {
     super(props);
@@ -9,7 +11,7 @@ class DynamicContentWrapper extends Component {
   }
 
   render() {
-    let dynamicContent = <h1>placeholder for dynamic contents</h1>;
+    let dynamicContent = <DefaultContent />;
 
     return (
       <div className="container dynamic-content-wrapper mt-4">
