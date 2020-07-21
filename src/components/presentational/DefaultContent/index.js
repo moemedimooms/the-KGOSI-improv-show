@@ -1,20 +1,48 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 const DefaultContent = (props) => {
+  const txtSpring = useSpring({
+    from: {
+      opacity: 0.2,
+    },
+    to: {
+      opacity: 1,
+    },
+    config: {
+      mass: 4,
+    },
+  });
+  const btnSpring = useSpring({
+    from: {
+      opacity: 0,
+    },
+    to: {
+      opacity: 1,
+    },
+    config: {
+      mass: 12,
+    },
+  });
+
   return (
     <div className="jumbotron">
       <p className="h4 font-weight-lighter">
-        I have a nephew named Kgosi, really dope dude - his reactions to
-        sceanrios are the stuff of legends
+        <animated.span style={{ ...txtSpring }}>
+          I have a nephew named Kgosi, really dope dude - his reactions to
+          sceanrios is the stuff of legends
+        </animated.span>
       </p>
       <div className="text-right">
-        <button
-          type="button"
-          class="btn-lg btn-light mt-3"
-          onClick={props.handleViewScenarios}
-        >
-          view scenarios
-        </button>
+        <animated.span style={{ ...btnSpring }}>
+          <button
+            type="button"
+            class="btn-lg btn-light mt-3"
+            onClick={props.handleViewScenarios}
+          >
+            view scenarios
+          </button>
+        </animated.span>
       </div>
     </div>
   );
