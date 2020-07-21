@@ -1,12 +1,24 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 import "./index.css";
 
 const Reaction = (props) => {
   let [scenario] = [...props.matchedScenarios];
+  const spring = useSpring({
+    from: {
+      opacity: 0.4,
+    },
+    to: {
+      opacity: 1,
+    },
+    config: {
+      mass: 16,
+    },
+  });
 
   return scenario ? (
     <div
-      class="alert alert-light alert-dismissible fade show text-center"
+      className="alert alert-light alert-dismissible fade show text-center"
       role="alert"
     >
       <p className="text-primary">
@@ -25,11 +37,13 @@ const Reaction = (props) => {
       >
         <span aria-hidden="true">&times;</span>
       </button>
-      <img
-        className="card-img-top mr-3"
-        src={scenario.imgURL}
-        alt={`Kgosi ${scenario.imgURL}`}
-      />
+      <animated.span style={{ ...spring }}>
+        <img
+          className="card-img-top mr-3"
+          src={scenario.imgURL}
+          alt={`Kgosi ${scenario.imgURL}`}
+        />
+      </animated.span>
     </div>
   ) : null;
 };
