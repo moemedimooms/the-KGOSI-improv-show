@@ -7,11 +7,25 @@ class DynamicContentWrapper extends Component {
     super(props);
     this.state = {
       scenarios,
+      showingScenarios: false,
     };
   }
 
+  handleViewScenarios = () => {
+    this.setState({
+      showingScenarios: true,
+    });
+  };
+
   render() {
-    let dynamicContent = <DefaultContent />;
+    let dynamicContent = null;
+    if (this.state.showingScenarios) {
+      dynamicContent = <h3>placeholder for scenarios</h3>;
+    } else {
+      dynamicContent = (
+        <DefaultContent handleViewScenarios={this.handleViewScenarios} />
+      );
+    }
 
     return (
       <div className="container dynamic-content-wrapper mt-4">
