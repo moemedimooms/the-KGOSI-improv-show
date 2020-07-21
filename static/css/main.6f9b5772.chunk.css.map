@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,6FAGE,uBAAyB,CACzB,2BACF,CALA,cACE,sBAAwB,CACxB,qBACF","file":"main.6f9b5772.chunk.css","sourcesContent":[".card-img-top {\r\n  height: 294px !important;\r\n  width: 220px !important;\r\n}\r\n"]}
