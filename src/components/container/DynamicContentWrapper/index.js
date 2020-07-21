@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import scenarios from "./data";
 
 import DefaultContent from "../../presentational/DefaultContent";
+import Reaction from "../../presentational/Reaction";
 import Scenarios from "../../presentational/Scenarios";
 
 class DynamicContentWrapper extends Component {
@@ -45,9 +46,7 @@ class DynamicContentWrapper extends Component {
         />
       );
     } else if (this.state.showingReaction) {
-      dynamicContent = (
-        <h3>placeholder for reaction that corresponds to clicked scenario</h3>
-      );
+      dynamicContent = <Reaction {...this.state} />;
     } else {
       dynamicContent = (
         <DefaultContent handleViewScenarios={this.handleViewScenarios} />
