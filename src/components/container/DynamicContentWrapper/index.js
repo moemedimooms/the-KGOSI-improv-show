@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import scenarios from "./data";
+
 import DefaultContent from "../../presentational/DefaultContent";
+import Scenarios from "../../presentational/Scenarios";
 
 class DynamicContentWrapper extends Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class DynamicContentWrapper extends Component {
   render() {
     let dynamicContent = null;
     if (this.state.showingScenarios) {
-      dynamicContent = <h3>placeholder for scenarios</h3>;
+      dynamicContent = <Scenarios scenarios={this.state.scenarios} />;
     } else {
       dynamicContent = (
         <DefaultContent handleViewScenarios={this.handleViewScenarios} />
