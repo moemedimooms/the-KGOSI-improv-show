@@ -8,7 +8,11 @@ const Scenarios = (props) => {
         {props.scenarios.map((s) => {
           return (
             <a className="card-link text-nowrap text-center" key={s.id}>
-              <button type="button" class="btn-lg btn-light mt-3">
+              <button
+                type="button"
+                class="btn-lg btn-light mt-3"
+                onClick={props.handleShowReaction}
+              >
                 {s.name}
               </button>
             </a>
