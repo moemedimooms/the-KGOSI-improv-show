@@ -16,10 +16,10 @@ class DynamicContentWrapper extends Component {
     };
   }
 
-  handleViewScenarios = () => {
+  handleCloseReaction = () => {
     this.setState({
-      showingScenarios: true,
       showingReaction: false,
+      showingScenarios: true,
     });
   };
 
@@ -36,6 +36,13 @@ class DynamicContentWrapper extends Component {
     });
   };
 
+  handleViewScenarios = () => {
+    this.setState({
+      showingScenarios: true,
+      showingReaction: false,
+    });
+  };
+
   render() {
     let dynamicContent = null;
     if (this.state.showingScenarios) {
@@ -46,7 +53,12 @@ class DynamicContentWrapper extends Component {
         />
       );
     } else if (this.state.showingReaction) {
-      dynamicContent = <Reaction {...this.state} />;
+      dynamicContent = (
+        <Reaction
+          matchedScenarios={this.state.matchedScenarios}
+          handleCloseReaction={this.handleCloseReaction}
+        />
+      );
     } else {
       dynamicContent = (
         <DefaultContent handleViewScenarios={this.handleViewScenarios} />

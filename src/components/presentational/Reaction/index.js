@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-const Reaction = ({ matchedScenarios }) => {
-  let [scenario] = [...matchedScenarios];
+const Reaction = (props) => {
+  let [scenario] = [...props.matchedScenarios];
 
   return scenario ? (
     <div
@@ -21,6 +21,7 @@ const Reaction = ({ matchedScenarios }) => {
         class="close"
         data-dismiss="alert"
         aria-label="Close"
+        onClick={props.handleCloseReaction}
       >
         <span aria-hidden="true">&times;</span>
       </button>
