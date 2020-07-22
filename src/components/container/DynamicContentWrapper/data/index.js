@@ -28,7 +28,7 @@ const scenarios = [
     id: 4,
     name: "dropping knowledge",
     imgURL: aFanOfTheReds,
-    reason: "a parking lot is a shelter for automobiles,",
+    reason: "a parking lot is a shelter for automobiles",
   },
   {
     id: 5,
