@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/when-kgosi-reacts/static/css/main.6f9b5772.chunk.css",
-    "main.js": "/when-kgosi-reacts/static/js/main.27067862.chunk.js",
-    "main.js.map": "/when-kgosi-reacts/static/js/main.27067862.chunk.js.map",
+    "main.css": "/when-kgosi-reacts/static/css/main.945bbf3a.chunk.css",
+    "main.js": "/when-kgosi-reacts/static/js/main.b23a62d8.chunk.js",
+    "main.js.map": "/when-kgosi-reacts/static/js/main.b23a62d8.chunk.js.map",
     "runtime-main.js": "/when-kgosi-reacts/static/js/runtime-main.80d8068c.js",
     "runtime-main.js.map": "/when-kgosi-reacts/static/js/runtime-main.80d8068c.js.map",
     "static/css/2.55367b3d.chunk.css": "/when-kgosi-reacts/static/css/2.55367b3d.chunk.css",
-    "static/js/2.f314f519.chunk.js": "/when-kgosi-reacts/static/js/2.f314f519.chunk.js",
-    "static/js/2.f314f519.chunk.js.map": "/when-kgosi-reacts/static/js/2.f314f519.chunk.js.map",
+    "static/js/2.9eb3bbb4.chunk.js": "/when-kgosi-reacts/static/js/2.9eb3bbb4.chunk.js",
+    "static/js/2.9eb3bbb4.chunk.js.map": "/when-kgosi-reacts/static/js/2.9eb3bbb4.chunk.js.map",
     "index.html": "/when-kgosi-reacts/index.html",
-    "precache-manifest.632aff89da6c3abb39d4ca110e2ebe50.js": "/when-kgosi-reacts/precache-manifest.632aff89da6c3abb39d4ca110e2ebe50.js",
+    "precache-manifest.25bf9722dfca53e5f251fe81074891de.js": "/when-kgosi-reacts/precache-manifest.25bf9722dfca53e5f251fe81074891de.js",
     "service-worker.js": "/when-kgosi-reacts/service-worker.js",
     "static/css/2.55367b3d.chunk.css.map": "/when-kgosi-reacts/static/css/2.55367b3d.chunk.css.map",
-    "static/css/main.6f9b5772.chunk.css.map": "/when-kgosi-reacts/static/css/main.6f9b5772.chunk.css.map",
-    "static/js/2.f314f519.chunk.js.LICENSE.txt": "/when-kgosi-reacts/static/js/2.f314f519.chunk.js.LICENSE.txt",
+    "static/css/main.945bbf3a.chunk.css.map": "/when-kgosi-reacts/static/css/main.945bbf3a.chunk.css.map",
+    "static/js/2.9eb3bbb4.chunk.js.LICENSE.txt": "/when-kgosi-reacts/static/js/2.9eb3bbb4.chunk.js.LICENSE.txt",
     "static/media/a-fan-of-The-Reds.gif": "/when-kgosi-reacts/static/media/a-fan-of-The-Reds.b2105d5a.gif",
     "static/media/amused-AF.gif": "/when-kgosi-reacts/static/media/amused-AF.bb7bf0b5.gif",
     "static/media/an-entire-mood.gif": "/when-kgosi-reacts/static/media/an-entire-mood.a9ba98e3.gif",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.80d8068c.js",
     "static/css/2.55367b3d.chunk.css",
-    "static/js/2.f314f519.chunk.js",
-    "static/css/main.6f9b5772.chunk.css",
-    "static/js/main.27067862.chunk.js"
+    "static/js/2.9eb3bbb4.chunk.js",
+    "static/css/main.945bbf3a.chunk.css",
+    "static/js/main.b23a62d8.chunk.js"
   ]
 }
