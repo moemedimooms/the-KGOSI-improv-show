@@ -1,5 +1,6 @@
 import React from "react";
 import { useTrail, animated } from "react-spring";
+import "./index.css";
 
 const Scenarios = (props) => {
   const springs = useTrail(props.scenarios.length, {
@@ -19,7 +20,9 @@ const Scenarios = (props) => {
   return (
     <div className="card bg-light">
       <div className="card-body text-center">
-        <h3 class="card-subtitle mb-2 text-muted">available scenarios</h3>
+        <p class="card-subtitle display-4 mb-2 font-weight-bold text-muted">
+          available scenarios
+        </p>
         {springs.map((spring, index) => {
           return (
             <a
