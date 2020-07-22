@@ -66,7 +66,7 @@ class DynamicContentWrapper extends Component {
     }
 
     return (
-      <div className="container dynamic-content-wrapper mt-4">
+      <div className="container dynamic-content-wrapper mt-4 mb-4">
         {dynamicContent}
       </div>
     );
