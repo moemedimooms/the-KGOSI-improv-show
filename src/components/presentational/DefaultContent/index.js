@@ -16,9 +16,11 @@ const DefaultContent = (props) => {
   const btnSpring = useSpring({
     from: {
       opacity: 0,
+      paddingRight: "-10px",
     },
     to: {
       opacity: 1,
+      paddingRight: "0px",
     },
     config: {
       mass: 12,
