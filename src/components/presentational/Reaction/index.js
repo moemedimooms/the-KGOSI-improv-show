@@ -15,6 +15,28 @@ const Reaction = (props) => {
       mass: 16,
     },
   });
+  const leftTxtSpring = useSpring({
+    from: {
+      transform: "translateX(-5px)",
+    },
+    to: {
+      transform: "translateX(0px)",
+    },
+    config: {
+      mass: 16,
+    },
+  });
+  const rightTxtSpring = useSpring({
+    from: {
+      transform: "translateX(5px)",
+    },
+    to: {
+      transform: "translateX(0px)",
+    },
+    config: {
+      mass: 12,
+    },
+  });
 
   return scenario ? (
     <div
@@ -22,15 +44,19 @@ const Reaction = (props) => {
       role="alert"
     >
       <p className="text-primary">
-        <h4 className="">
-          Kgosi is <span className="font-weight-bold">{scenario.name}</span>
-        </h4>
-        because {scenario.reason}
+        <animated.div style={{ ...rightTxtSpring }}>
+          <h4 className="">
+            Kgosi is <span className="font-weight-bold">{scenario.name}</span>
+          </h4>
+        </animated.div>
+        <animated.div style={{ ...leftTxtSpring }}>
+          because {scenario.reason}
+        </animated.div>
       </p>
 
       <button
         type="button"
-        class="close"
+        className="close"
         data-dismiss="alert"
         aria-label="Close"
         onClick={props.handleCloseReaction}
