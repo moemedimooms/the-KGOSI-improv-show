@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "965d29f3cce554ddc896111628f0270c",
+    "revision": "599e7d3433fba566bc6f6b97678769cb",
     "url": "/when-kgosi-reacts/index.html"
   },
   {
-    "revision": "68d5a4831a5ba937a640",
+    "revision": "1d92381b0ffade5968d9",
     "url": "/when-kgosi-reacts/static/css/2.55367b3d.chunk.css"
   },
   {
-    "revision": "a7272f80b42e0ba5e918",
+    "revision": "0fbc69886c8da411db19",
     "url": "/when-kgosi-reacts/static/css/main.945bbf3a.chunk.css"
   },
   {
-    "revision": "68d5a4831a5ba937a640",
-    "url": "/when-kgosi-reacts/static/js/2.9eb3bbb4.chunk.js"
+    "revision": "1d92381b0ffade5968d9",
+    "url": "/when-kgosi-reacts/static/js/2.5879e219.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/when-kgosi-reacts/static/js/2.9eb3bbb4.chunk.js.LICENSE.txt"
+    "url": "/when-kgosi-reacts/static/js/2.5879e219.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7272f80b42e0ba5e918",
-    "url": "/when-kgosi-reacts/static/js/main.b23a62d8.chunk.js"
+    "revision": "0fbc69886c8da411db19",
+    "url": "/when-kgosi-reacts/static/js/main.a147b3e1.chunk.js"
   },
   {
     "revision": "d85958a4d698762f90e9",

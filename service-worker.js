@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/when-kgosi-reacts/precache-manifest.25bf9722dfca53e5f251fe81074891de.js"
+  "/when-kgosi-reacts/precache-manifest.7a11291c8ad24f4581e0952d964a8e75.js"
 );
 
 self.addEventListener('message', (event) => {
