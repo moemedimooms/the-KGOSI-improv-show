@@ -6,11 +6,9 @@ const Scenarios = (props) => {
   const springs = useTrail(props.scenarios.length, {
     from: {
       opacity: 0.2,
-      transform: "translateY(-5px)",
     },
     to: {
       opacity: 1,
-      transform: "translateY(0px)",
     },
     config: {
       mass: 7,
