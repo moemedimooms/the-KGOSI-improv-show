@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import scenarios from "./data";
+import scenarios from "../../../DATA/index";
 
 import DefaultContent from "../../presentational/DefaultContent";
 import Reaction from "../../presentational/Reaction";

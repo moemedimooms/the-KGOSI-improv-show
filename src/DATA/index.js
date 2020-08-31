@@ -2,6 +2,7 @@ import anEntireMood from "./img/an-entire-mood.gif";
 import amusedAF from "./img/amused-AF.gif";
 import aFanOfTheReds from "./img/a-fan-of-The-Reds.gif";
 import beingLowkey from "./img/being-lowkey.gif";
+import crammingForExams from "./img/cramming-for-exams.gif";
 import inGoodVibez from "./img/in-good-vibez.gif";
 
 const scenarios = [
@@ -35,6 +36,12 @@ const scenarios = [
     name: "in good vibez",
     imgURL: inGoodVibez,
     reason: "the sky is a blue bandanna that the earth wears",
+  },
+  {
+    id: 6,
+    name: "cramming for exams",
+    imgURL: crammingForExams,
+    reason: "psychologists couldn’t become psychics",
   },
 ];
 
