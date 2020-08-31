@@ -50,7 +50,10 @@ const Reaction = (props) => {
           </h4>
         </animated.div>
         <animated.div style={{ ...leftTxtSpring }}>
-          because {scenario.reason}
+          because{" "}
+          <span className="font-weight-light scenario-reason">
+            {scenario.reason}
+          </span>
         </animated.div>
       </p>
 
