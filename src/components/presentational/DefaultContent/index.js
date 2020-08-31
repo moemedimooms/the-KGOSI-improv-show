@@ -31,8 +31,8 @@ const DefaultContent = (props) => {
     <div className="jumbotron">
       <p className="h4 font-weight-lighter">
         <animated.span style={{ ...txtSpring }}>
-          I have a nephew named Kgosi, really dope dude - his reactions to
-          sceanrios is the stuff of legends
+          I have a legendary nephew named Kgosi - he can re-enact scenarions
+          like an improv pro
         </animated.span>
       </p>
       <div className="text-right">
