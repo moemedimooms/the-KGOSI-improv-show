@@ -5,6 +5,10 @@ import DefaultContent from "../../presentational/DefaultContent";
 import Reaction from "../../presentational/Reaction";
 import Scenarios from "../../presentational/Scenarios";
 
+/*
+ **it qualifies as a container component because it has local state whose values it passes
+ **down to child components via props
+ */
 class DynamicContentWrapper extends Component {
   constructor(props) {
     super(props);
