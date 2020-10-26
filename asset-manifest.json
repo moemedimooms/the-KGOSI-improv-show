@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/the-KGOSI-improv-show/static/css/main.3041277c.chunk.css",
-    "main.js": "/the-KGOSI-improv-show/static/js/main.ed1b6893.chunk.js",
-    "main.js.map": "/the-KGOSI-improv-show/static/js/main.ed1b6893.chunk.js.map",
+    "main.js": "/the-KGOSI-improv-show/static/js/main.9a5cfc3a.chunk.js",
+    "main.js.map": "/the-KGOSI-improv-show/static/js/main.9a5cfc3a.chunk.js.map",
     "runtime-main.js": "/the-KGOSI-improv-show/static/js/runtime-main.2b543084.js",
     "runtime-main.js.map": "/the-KGOSI-improv-show/static/js/runtime-main.2b543084.js.map",
     "static/css/2.55367b3d.chunk.css": "/the-KGOSI-improv-show/static/css/2.55367b3d.chunk.css",
-    "static/js/2.1ffb0125.chunk.js": "/the-KGOSI-improv-show/static/js/2.1ffb0125.chunk.js",
-    "static/js/2.1ffb0125.chunk.js.map": "/the-KGOSI-improv-show/static/js/2.1ffb0125.chunk.js.map",
+    "static/js/2.4876f891.chunk.js": "/the-KGOSI-improv-show/static/js/2.4876f891.chunk.js",
+    "static/js/2.4876f891.chunk.js.map": "/the-KGOSI-improv-show/static/js/2.4876f891.chunk.js.map",
     "index.html": "/the-KGOSI-improv-show/index.html",
-    "precache-manifest.effa1d0b3768cc5e689e0e82ec44b41f.js": "/the-KGOSI-improv-show/precache-manifest.effa1d0b3768cc5e689e0e82ec44b41f.js",
+    "precache-manifest.87e1fda916a05a2f5e3cd95755b2c4ed.js": "/the-KGOSI-improv-show/precache-manifest.87e1fda916a05a2f5e3cd95755b2c4ed.js",
     "service-worker.js": "/the-KGOSI-improv-show/service-worker.js",
     "static/css/2.55367b3d.chunk.css.map": "/the-KGOSI-improv-show/static/css/2.55367b3d.chunk.css.map",
     "static/css/main.3041277c.chunk.css.map": "/the-KGOSI-improv-show/static/css/main.3041277c.chunk.css.map",
-    "static/js/2.1ffb0125.chunk.js.LICENSE.txt": "/the-KGOSI-improv-show/static/js/2.1ffb0125.chunk.js.LICENSE.txt",
+    "static/js/2.4876f891.chunk.js.LICENSE.txt": "/the-KGOSI-improv-show/static/js/2.4876f891.chunk.js.LICENSE.txt",
     "static/media/a-fan-of-The-Reds.gif": "/the-KGOSI-improv-show/static/media/a-fan-of-The-Reds.b2105d5a.gif",
     "static/media/amused-AF.gif": "/the-KGOSI-improv-show/static/media/amused-AF.bb7bf0b5.gif",
     "static/media/an-entire-mood.gif": "/the-KGOSI-improv-show/static/media/an-entire-mood.a9ba98e3.gif",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.2b543084.js",
     "static/css/2.55367b3d.chunk.css",
-    "static/js/2.1ffb0125.chunk.js",
+    "static/js/2.4876f891.chunk.js",
     "static/css/main.3041277c.chunk.css",
-    "static/js/main.ed1b6893.chunk.js"
+    "static/js/main.9a5cfc3a.chunk.js"
   ]
 }

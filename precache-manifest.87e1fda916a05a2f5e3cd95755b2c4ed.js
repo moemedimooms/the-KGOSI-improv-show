@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8647f45214ef7a0f4d668b3d088d18ea",
+    "revision": "2a5ad2aa15301e6ca94837afc5e2c137",
     "url": "/the-KGOSI-improv-show/index.html"
   },
   {
-    "revision": "0c907357e12ca7924413",
+    "revision": "21c3d228121c1149359d",
     "url": "/the-KGOSI-improv-show/static/css/2.55367b3d.chunk.css"
   },
   {
-    "revision": "5ae23415cd839ad2229b",
+    "revision": "9a2679235a06a12ea738",
     "url": "/the-KGOSI-improv-show/static/css/main.3041277c.chunk.css"
   },
   {
-    "revision": "0c907357e12ca7924413",
-    "url": "/the-KGOSI-improv-show/static/js/2.1ffb0125.chunk.js"
+    "revision": "21c3d228121c1149359d",
+    "url": "/the-KGOSI-improv-show/static/js/2.4876f891.chunk.js"
   },
   {
-    "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/the-KGOSI-improv-show/static/js/2.1ffb0125.chunk.js.LICENSE.txt"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/the-KGOSI-improv-show/static/js/2.4876f891.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ae23415cd839ad2229b",
-    "url": "/the-KGOSI-improv-show/static/js/main.ed1b6893.chunk.js"
+    "revision": "9a2679235a06a12ea738",
+    "url": "/the-KGOSI-improv-show/static/js/main.9a5cfc3a.chunk.js"
   },
   {
     "revision": "5aad830ce8decd95e251",

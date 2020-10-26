@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/the-KGOSI-improv-show/precache-manifest.effa1d0b3768cc5e689e0e82ec44b41f.js"
+  "/the-KGOSI-improv-show/precache-manifest.87e1fda916a05a2f5e3cd95755b2c4ed.js"
 );
 
 self.addEventListener('message', (event) => {
