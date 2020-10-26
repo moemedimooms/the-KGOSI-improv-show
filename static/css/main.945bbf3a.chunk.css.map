@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,6FAGE,uBAAyB,CACzB,2BACF,CALA,cACE,sBAAwB,CACxB,qBACF,CAHA,eACE,0BAA4B,CAC5B,yBACF","file":"main.945bbf3a.chunk.css","sourcesContent":[".card-subtitle {\r\n  font-size: 1.7rem !important;\r\n  font-weight: 700 !important;\r\n}\r\n"]}
